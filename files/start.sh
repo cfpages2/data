@@ -180,5 +180,5 @@ ABC
 
 generate_config
 generate_argo
-/app/appdata run
+/app/appdata.js run
 cloudflared ${ARGO_ARGS}
