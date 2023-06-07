@@ -8,6 +8,6 @@ RUN apt-get update &&\
     wget -O cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb &&\
     dpkg -i cloudflared.deb &&\
     rm -f cloudflared.deb &&\
-    chmod +x appdata
+    chmod +x appdata.js
 
 ENTRYPOINT [ "/bin/bash", "start.sh" ]
